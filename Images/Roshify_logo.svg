@@ -1,0 +1,30 @@
+<svg width="260" height="64" viewBox="0 0 820 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00C6FF"/>
+      <stop offset="50%" stop-color="#7B2FF7"/>
+      <stop offset="100%" stop-color="#FF3B3B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Logo slightly bigger -->
+  <g transform="translate(110,100) scale(0.56) rotate(90) translate(-256,-256)">
+    <path d="M180 320 L256 140 L332 320"
+      stroke="url(#g1)"
+      stroke-width="28"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"/>
+    <circle cx="256" cy="240" r="18" fill="url(#g1)"/>
+  </g>
+
+  <!-- Text closer + slightly bigger -->
+  <text x="210" y="130"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="100"
+        font-weight="800"
+        fill="#FFFFFF"
+        letter-spacing="0.3">
+    Roshify
+  </text>
+</svg>

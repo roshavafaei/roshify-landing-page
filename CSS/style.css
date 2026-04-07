@@ -602,3 +602,70 @@ a {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* Navigation Bar */
+.nav {
+    align-items: center;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav__list {
+    width: 100%;
+    margin: 0;
+}
+
+.nav__item {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid #222;
+}
+
+.nav__item > a {
+    color: #d2d0db;
+    transition: color .3s;
+}
+
+.nav__item > a:hover {
+    color: #fff;
+}
+
+.nav__toggler {
+    margin: 2rem;
+    opacity: 0.5;
+    transition: box-shadow .15s;
+    cursor: pointer;
+}
+
+.nav.collapsible--expanded .nav__toggler {
+    opacity: 1;
+    box-shadow: 0 0 0 3px #666;
+    border-radius: 5px;
+}
+
+.nav__brand {
+    margin-left: 1rem;
+    transform: translateY(5px);
+}
+
+@media screen and (min-width: 768px) {
+    .nav__toggler {
+        display: none;
+    }
+
+    .nav__list {
+        display: flex;
+        font-size: 1.6rem;
+        margin-right: 2rem;
+        max-height: 100%;
+        opacity: 1;
+        padding: 0;
+        width: auto;
+    }
+
+    .nav__item {
+        border: 0;
+    }
+}
