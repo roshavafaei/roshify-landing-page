@@ -14,7 +14,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="CSS/normalize.css" />
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
@@ -22,7 +21,7 @@
     <!-- navbar -->
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="#">
+        <a aria-label="Roshify" class="nav__brand" href="#">
         <img src="Images/logo.svg" alt=""/></a>
         <svg class="icon icon--white nav__toggler">
           <use href="Images/sprite.svg#menu"></use>
@@ -70,7 +69,7 @@
         </p>
       </header>
       <div class="input-group">
-        <input type="text" class="input" placeholder="Enter domain here..." />
+        <input aria-label="Domain" type="text" class="input" placeholder="Enter domain here..." />
         <button class="btn btn--accent">
           <svg class="icon icon--white">
             <use href="Images/sprite.svg#search"></use>
