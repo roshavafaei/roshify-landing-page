@@ -27,7 +27,11 @@
         <a aria-label="Roshify" class="nav__brand" href="#">
           <img src="Images/logo.svg" alt=""
         /></a>
-        <img class="icon icon--white nav__toggler" src="Images/menu.svg">
+        <span class="icon-container">
+          <svg class="icon icon--white nav__toggler">
+            <use xlink:href="images/sprite.svg#menu"></use>
+          </svg>
+        </span>
         <ul class="list nav__list collapsible__content">
           <li class="nav__item"><a href="#">Hosting</a></li>
           <li class="nav__item"><a href="#">VPS</a></li>
@@ -78,7 +82,7 @@
           placeholder="Enter domain here..."
         />
         <button class="btn btn--accent">
-          <img class="icon icon--white" src="Images/search.svg">
+          <img class="icon icon--white" src="Images/search.svg" />
           Search
         </button>
       </div>
@@ -101,7 +105,9 @@
               <span class="plan__price">12$</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge small">5% OFF</span>
-              <span class="plan__description">Perfect for personal websites and small projects</span>
+              <span class="plan__description"
+                >Perfect for personal websites and small projects</span
+              >
             </header>
             <div class="card__body">
               <ul class="list list--tick">
@@ -121,7 +127,9 @@
               <span class="plan__price">18$</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--primary badge small">10% OFF</span>
-              <span class="plan__description">A balanced plan for growing businesses and teams</span>
+              <span class="plan__description"
+                >A balanced plan for growing businesses and teams</span
+              >
             </header>
             <div class="card__body">
               <ul class="list list--tick">
@@ -141,7 +149,9 @@
               <span class="plan__price">26$</span>
               <span class="plan__billing-cycle">/month</span>
               <span class="badge badge--secondary badge small">15% OFF</span>
-              <span class="plan__description">Built for high-traffic websites and advanced needs</span>
+              <span class="plan__description"
+                >Built for high-traffic websites and advanced needs</span
+              >
             </header>
             <div class="card__body">
               <ul class="list list--tick">
@@ -168,7 +178,7 @@
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
-            <img class="icon icon--primary" src="Images/easy.svg">
+            <img class="icon icon--primary" src="Images/easy.svg" />
           </span>
           <h3 class="feature__heading">Super Easy to Use</h3>
           <p>
@@ -193,7 +203,7 @@
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
-            <img class="icon icon--primary" src="Images/computer.svg">
+            <img class="icon icon--primary" src="Images/computer.svg" />
           </span>
           <h3 class="feature__heading">Blazing Fast Performance</h3>
           <p>
@@ -218,7 +228,7 @@
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-up">
           <span class="icon-container">
-            <img class="icon icon--primary" src="Images/settings.svg">
+            <img class="icon icon--primary" src="Images/settings.svg" />
           </span>
           <h3 class="feature__heading">Effortless WordPress Hosting</h3>
           <p>
@@ -261,7 +271,7 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <img class="icon icon--primary" src="Images/snap.svg">
+                <img class="icon icon--primary" src="Images/snap.svg" />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Easy Start & Managed Updates</h3>
@@ -275,7 +285,7 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <img class="icon icon--primary" src="Images/growth.svg">
+                <img class="icon icon--primary" src="Images/growth.svg" />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Staging, Git & WP-CLI</h3>
@@ -289,7 +299,7 @@
           <li>
             <div class="media">
               <div class="media__image">
-                <img class="icon icon--primary" src="Images/wordpress.svg">
+                <img class="icon icon--primary" src="Images/wordpress.svg" />
               </div>
               <div class="media__body">
                 <h3 class="media__title">Dynamic Caching & More</h3>
@@ -321,7 +331,10 @@
                 alt="A happy, smiling customer"
               />
               <span class="icon-container icon-container--accent">
-                <img class="icon icon--white icon--small" src="Images/quotes.svg">
+                <img
+                  class="icon icon--white icon--small"
+                  src="Images/quotes.svg"
+                />
               </span>
             </div>
             <blockquote class="quote">
@@ -333,7 +346,7 @@
               <footer>
                 <div class="media">
                   <div class="media__image quote__line">
-                    <img class="icon icon--primary" src="Images/line.svg">
+                    <img class="icon icon--primary" src="Images/line.svg" />
                   </div>
                   <div class="media__body">
                     <h3 class="media__title quote__author">John Smith</h3>
