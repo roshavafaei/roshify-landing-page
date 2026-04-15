@@ -174,11 +174,11 @@ a {
 }
 
 .icon--primary {
-  color: var(--color-primary);
+  fill: var(--color-primary);
 }
 
 .icon--white {
-  color: #fff;
+  fill: #fff;
 }
 
 .icon-container {
