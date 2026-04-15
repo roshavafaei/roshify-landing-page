@@ -41,7 +41,8 @@ https://github.com/roshavafaei/roshify-landing-page
 
 ## 📸 Preview
 
-![preview](./Images/preview.png)
+![preview](./Images/preview-laptop.png)
+![preview](./Images/preview-mobile.png)
 
 ---
 
